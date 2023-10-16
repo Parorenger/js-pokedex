@@ -169,3 +169,16 @@
   margin: .25rem 0;
   font-size: .625rem;
 }
+
+/* Pokemon Info Styles */
+
+.pokemon .order {
+  color: #fff;
+  text-align: right;
+  font-size: 1rem;
+}
+
+.pokemon .detail img.picture {
+  max-width: 100%;
+  height: 150px;
+}
