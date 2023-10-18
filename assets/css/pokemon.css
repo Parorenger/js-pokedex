@@ -106,7 +106,7 @@
   padding: 1rem;
   border-radius: 1rem;
   background-color: var(--bg-color);
-
+  max-width: 576px;
 }
 
 .pokemon .name {
@@ -200,4 +200,21 @@ ol {
 li {
   float:left;
   /* padding-right: 20px; */
+}
+
+.specs {
+  margin: 16px;
+}
+
+.specs table {
+  margin: 8px;
+  width: 100%;
+}
+
+.specs td {
+  padding: 0.25rem 0;
+}
+
+.specs table .attribute {
+  opacity: 0.5;
 }
